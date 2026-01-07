@@ -1,0 +1,66 @@
+{
+  "$schema": "https://tkytel.github.io/mantela/0.1.x/mantela.schema.json",
+  "aboutMe": {
+    "geolocationCoordinates": {
+      "accuracy": 10000,
+      "altitude": 5,
+      "altitudeAccuracy": 5,
+      "latitude": 33.02863,
+      "longitude": 130.44527
+    },
+    "identifier": "bf979778-1d1f-4a33-abac-8cbc2f3dae91",
+    "name": "sola-tel",
+    "preferredPrefix": [
+      "944",
+      "0944"
+    ],
+    "sipUri": [
+      "sip:100.123.130.8:5060:transport=udp",
+      "sip:100.123.130.8:5060:transport=tcp"
+    ],
+    "unavailable": false
+  },
+  "extensions": [
+    {
+      "extension": "3201",
+      "identifier": "E5DJURNU",
+      "model": "Linphone, Windows x64 Laptop",
+      "name": "Laptop",
+      "type": "phone"
+    },
+    {
+      "extension": "3202",
+      "identifier": "QFOLT732",
+      "model": "600-A2",
+      "name": "Blackphone",
+      "type": "dialphone"
+    },
+    {
+      "extension": "3203",
+      "identifier": "JJCWGJCZ",
+      "model": "Sony Xperia 1 II",
+      "name": "Xperia",
+      "type": "smartphone"
+    },
+    {
+      "extension": "3221",
+      "identifier": "9VU31TIZ",
+      "name": "Reads back the extension",
+      "type": "music"
+    },
+    {
+      "extension": "3222",
+      "identifier": "65FBE74Z",
+      "name": "Constant 1000Hz tone",
+      "type": "music"
+    },
+    {
+      "extension": "3223",
+      "identifier": "MHVW2D7K",
+      "name": "Echo test",
+      "type": "music"
+    }
+  ],
+  "providers": [],
+  "version": "0.1.x"
+}
