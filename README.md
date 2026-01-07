@@ -6,7 +6,14 @@ sola-tel （通称：そら局）の提供仕様を示します。
 
 # mantela
 
-WIP
+https://hkshuttle.github.io/tkytel/mantela.json
+
+# Preffered Prefix
+
+特に不都合がなければ、以下のプレフィックスをお勧めします。
+
+- 944
+- 0944
 
 # 内線端末
 
