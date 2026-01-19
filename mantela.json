@@ -15,8 +15,9 @@
       "0944"
     ],
     "sipUri": [
-      "sip:100.123.130.8:5060:transport=udp",
-      "sip:100.123.130.8:5060:transport=tcp"
+      "sip:mikotte.hk-shuttle.net:5060:transport=udp",
+      "sip:mikotte.hk-shuttle.net:5060:transport=tcp",
+      "sip:mikotte.hk-shuttle.net:5061:transport=tls"
     ],
     "unavailable": false
   },
@@ -61,6 +62,25 @@
       "type": "music"
     }
   ],
-  "providers": [],
+  "providers": [
+    {
+      "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+      "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json",
+      "name": "MikaNeTEL",
+      "prefix": "510"
+    },
+    {
+      "identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
+      "mantela": "https://www.yude.jp.eu.org/.well-known/mantela.json",
+      "name": "yudetel",
+      "prefix": "390"
+    },
+    {
+      "identifier": "5752ca4c-c828-4946-a8f3-7f8272206f2d",
+      "mantela": "https://da-tenshi.github.io/mantela.json",
+      "name": "SHINANOTEL",
+      "prefix": "66"
+    }
+  ],
   "version": "0.1.x"
 }
