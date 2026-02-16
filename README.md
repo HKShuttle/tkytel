@@ -11,15 +11,36 @@ sola-tel （通称：そら局）の提供仕様を示します。
   - アーキテクチャ違いのため、イメージはすべて自前でビルドしています
 - Tailscale
 - IPv4/IPv6 Dual Stack UDP/TCP/TLS
+  - TLSバージョンは1.2のみに制限されています
 - mikopi.tail98edcb.ts.net (Tailscale hostname, A Record is set)
   - 100.123.130.8
 - mikotte.hk-shuttle.net (for TLS Domain Validation, A/AAAA Record is set)
   - 100.123.130.8
   - fd7a:115c:a1e0::3301:8208
+ 
+## ネットワーク環境
+
+- フレッツ網
+  - IPv6 IPoE
+    - Inbound接続は意図的に弾いています。Outbound接続はほとんど制限なく可能です
+  - IPv4 over IPv6 (MAP-E)
+    - ポートマッピングに制限があるため、Inbound, Outboundともに厳しいと思われます
+- Tailscale
+  - IPv4, IPv6ともに、Inbound, Outbound両方向の接続が可能です
+  - そら局に接続希望の方は、Tailscaleを経由して接続してください
+ 
+## 接続方法
+
+1. 東京広域電話網の折衝部「sola-tel (by HK_Shuttle)」スレッドのリンクより、Tailscaleに接続する
+2. [いまさらVoIP網](https://zenn.dev/kusaremkn/articles/abd760f9f2f450) に従い、発信用設定、ルーティング設定を行う
+
+- Provider host URL or IP address には、`mikotte.hk-shuttle.net` を設定するのがおすすめです
+  - IPv4/IPv6, UDP/TCP/TLS いずれの組み合わせも、このHostnameで接続できるように設定しています
+- Tailscale Hostnameや、IPアドレスで直接接続した場合、UDP/TCPでは接続できますが、TLSでは接続できません
 
 # mantela
 
-https://hkshuttle.github.io/tkytel/mantela.json
+<https://hkshuttle.github.io/tkytel/mantela.json>
 
 # Preffered Prefix
 
@@ -32,7 +53,7 @@ https://hkshuttle.github.io/tkytel/mantela.json
   - Linphone on Windows Mobile Laptop
   - 電源が入っているとき以外はオフラインです
 - 3202
-  - NTT 600-A2 Classic Style Dial Phone, Connected via Yamaha RT58i
+  - NTT ハウディ・クローバーホン S3 (via Yamaha RT58i)
   - 常時オンラインです
   - 平日および土休日の 19:00 - 23:30 ごろだと出られる可能性が高そうです
 - 3203
