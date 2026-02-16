@@ -32,9 +32,9 @@
     {
       "extension": "3202",
       "identifier": "QFOLT732",
-      "model": "600-A2",
-      "name": "Blackphone",
-      "type": "dialphone"
+      "model": "NTT Howdy Clover Phone S3",
+      "name": "Howdy",
+      "type": "pushphone"
     },
     {
       "extension": "3203",
@@ -80,8 +80,26 @@
       "mantela": "https://da-tenshi.github.io/mantela.json",
       "name": "SHINANOTEL",
       "prefix": "661"
+    },
+    {
+      "identifier": "41aca3d1-6882-4e4d-9651-5e52464902e7",
+      "mantela": "https://halka.jp/.well-known/mantela.json",
+      "name": "Goryokaku",
+      "prefix": "767"
+    },
+    {
+      "identifier": "832be12c-b1f3-4095-8786-045f5df87707",
+      "mantela": "",
+      "name": "Mute4816",
+      "prefix": "237"
+    },
+    {
+      "identifier": "9e40b39a-2964-4868-af71-ebe8e71615eb",
+      "mantela": "https://yuriko.co.nz/.well-known/mantela.json",
+      "name": "YuriConoHa",
+      "prefix": "975",
+      "unavailable": true
     }
   ],
   "version": "0.1.x"
 }
-
