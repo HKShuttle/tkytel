@@ -88,12 +88,6 @@
       "prefix": "767"
     },
     {
-      "identifier": "832be12c-b1f3-4095-8786-045f5df87707",
-      "mantela": "",
-      "name": "Mute4816",
-      "prefix": "237"
-    },
-    {
       "identifier": "9e40b39a-2964-4868-af71-ebe8e71615eb",
       "mantela": "https://yuriko.co.nz/.well-known/mantela.json",
       "name": "YuriConoHa",
@@ -103,3 +97,4 @@
   ],
   "version": "0.1.x"
 }
+
