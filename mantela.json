@@ -93,8 +93,15 @@
       "name": "YuriConoHa",
       "prefix": "975",
       "unavailable": true
+    },
+    {
+      "identifier": "9ec68766-eca9-47fd-b4d8-d89d121d7c75",
+      "mantela": "https://da-tenshi.github.io/AMtel.json",
+      "name": "AM-TEL",
+      "prefix": "222"
     }
   ],
   "version": "0.1.x"
 }
+
 
