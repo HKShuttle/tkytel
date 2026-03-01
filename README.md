@@ -12,6 +12,7 @@ sola-tel （通称：そら局）の提供仕様を示します。
 - Tailscale
 - IPv4/IPv6 Dual Stack UDP/TCP/TLS
   - TLSバージョンは1.2のみに制限されています
+  - **TLSは実験的対応です**。うまく接続できない場合は、UDPまたはTCPで接続してください。
 - mikopi.tail98edcb.ts.net (Tailscale hostname, A Record is set)
   - 100.123.130.8
 - mikotte.hk-shuttle.net (for TLS Domain Validation, A/AAAA Record is set)
@@ -65,6 +66,8 @@ sola-tel （通称：そら局）の提供仕様を示します。
 # テスト用番号
 
 接続や死活の確認にいつでもご自由にご利用ください。
+
+ちゃんとしたテスト用音声やBGMの追加はいつか暇な時にやります・・・。
 
 - 3221
   - Read Back Service
