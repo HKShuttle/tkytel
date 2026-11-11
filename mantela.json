@@ -16,8 +16,7 @@
     ],
     "sipUri": [
       "sip:mikotte.hk-shuttle.net:5060:transport=udp",
-      "sip:mikotte.hk-shuttle.net:5060:transport=tcp",
-      "sip:mikotte.hk-shuttle.net:5061:transport=tls"
+      "sip:mikotte.hk-shuttle.net:5060:transport=tcp"
     ],
     "unavailable": false
   },
@@ -88,17 +87,42 @@
       "prefix": "767"
     },
     {
-      "identifier": "9e40b39a-2964-4868-af71-ebe8e71615eb",
-      "mantela": "https://yuriko.co.nz/.well-known/mantela.json",
-      "name": "YuriConoHa",
-      "prefix": "975",
-      "unavailable": true
-    },
-    {
       "identifier": "9ec68766-eca9-47fd-b4d8-d89d121d7c75",
       "mantela": "https://da-tenshi.github.io/AMtel.json",
       "name": "AM-TEL",
-      "prefix": "222"
+      "prefix": "222",
+      "unavailable": true
+    },
+    {
+      "identifier": "530251dc-0f93-4226-89c8-d71f900a1f0b",
+      "mantela": "https://tkytel-8931.f5.si/.well-known/mantela.json",
+      "name": "はくさい局",
+      "prefix": "891"
+    },
+    {
+      "identifier" null,
+      "mantela": null,
+      "name": "電気工技術部局",
+      "prefix": 430,
+      "unavailable": true
+    },
+    {
+      "identifier": "ff07d332-2c68-4107-808a-206e64615d4a",
+      "mantela": "https://www.kur0den.net/.well-known/mantela.json",
+      "name": "Kur0den-tel",
+      "prefix": "961"
+    },
+    {
+      "identifier": "402b0d3f-d499-4bf7-8ef0-bd25c1edd69a",
+      "mantela": "https://allianaab2m.github.io/mantela/mantela.json",
+      "name": "ab2m-ありあな局",
+      "prefix": "462"
+    },
+    {
+      "identifier": "b6c6a038-2364-4fb5-a23f-3b3d2e70128c",
+      "mantela": "https://nao700.github.io/KSPB-ICB-TEL/mantela.json",
+      "name": "KSPD-ICB局",
+      "prefix": "907"
     }
   ],
   "version": "0.1.x"
