@@ -100,8 +100,8 @@
       "prefix": "891"
     },
     {
-      "identifier" null,
-      "mantela": null,
+      "identifier" "",
+      "mantela": "",
       "name": "電気工技術部局",
       "prefix": 430,
       "unavailable": true
